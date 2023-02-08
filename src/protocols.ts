@@ -30,3 +30,8 @@ export type RequestError = {
   name: string,
   message: string,
 };
+
+export type BookingUser = {
+  id: number,
+  Room: object | null,
+}
